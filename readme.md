@@ -27,7 +27,22 @@ And then after that, I styled the banner and the button. Here I learned more abo
 
 I'm also starting to see the power of variables and mixins in SCSS now, it's very helpful.
 
-### Commit 3 (17/03/22)
+### Commit 3 (17/03/23)
 Third commit, pretty simple actually. I just added the structure for the second main section which is the 'About Us' section of the page. All done through HTML, separated this page into sections using divs. 
 
 Even re-used same main and sub heading elements but of course just changed the content. 
+
+### Commit 4 (17/03/23)
+Fourth commit, essentially just styled the About us section. 
+
+I gave it a viewport height of 90 to give the visitor a point from where they scrol last which is the main header section. Otherwise if i go 100vh, it will take up the whole screen, perhaps I could even change it to 80 at some point but 90 will do for now. 
+
+Next I positioned the image to left of the page, so as its sticking out from the left side of the screen. I also changed the opacity so it doesnt stand out as much. 
+
+I actually divided the section into 2 parts, left and right. I have a display property of flex here and used align items center to center both sides horizontally. I probably should have start with this first. 
+
+The section on the right include the pages main and sub heading, then a paragraph section and a button beneath it as well.
+
+The only notable thing to mention here is the use of flex to not only align the items on the center but also I used flex direction column so that all the elements within this section aligns vertically. I'm starting to understand flexbox better.
+
+Last thing, I used a pseudo element to select the first letter of the p element and added padding to its left. 
