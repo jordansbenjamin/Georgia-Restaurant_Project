@@ -26,3 +26,8 @@ Since they both require similar centerting properties, I created a mixin to make
 And then after that, I styled the banner and the button. Here I learned more about nesting, and have a better idea of nesting overall. Especially learning how to use ampersand as it indicates parent element which is helpful. 
 
 I'm also starting to see the power of variables and mixins in SCSS now, it's very helpful.
+
+### Commit 3 (17/03/22)
+Third commit, pretty simple actually. I just added the structure for the second main section which is the 'About Us' section of the page. All done through HTML, separated this page into sections using divs. 
+
+Even re-used same main and sub heading elements but of course just changed the content. 
