@@ -46,3 +46,6 @@ The section on the right include the pages main and sub heading, then a paragrap
 The only notable thing to mention here is the use of flex to not only align the items on the center but also I used flex direction column so that all the elements within this section aligns vertically. I'm starting to understand flexbox better.
 
 Last thing, I used a pseudo element to select the first letter of the p element and added padding to its left. 
+
+### Commit 5 (17/03/23)
+Fifth commit and the fourth commit of the day! This commit conists of building markup strcuture for the next section of the page which is the gallery section. I've also included all the different images of food in there as well. 
