@@ -50,7 +50,7 @@ Last thing, I used a pseudo element to select the first letter of the p element 
 ### Commit 5 (17/03/23)
 Fifth commit and the fourth commit of the day! This commit conists of building markup strcuture for the next section of the page which is the gallery section. I've also included all the different images of food in there as well. 
 
-### Commit 6 (17/03/23)
+### Commit 6 (18/03/23)
 This was one was actually rather challenging, Essentially created a photo gallery using flexbox and I got confused when figuring out which container should actually hold the flex property. Turns out that the way I structured the markup was pretty clear already.
 
 The class cards-wrapper is the container that used flex wrap to wrap all the items in that container, and in this case its the images. 
@@ -58,3 +58,13 @@ The class cards-wrapper is the container that used flex wrap to wrap all the ite
 For each image which I labeled as a class of card, I had to set the width with a relative unit and also a viewport width. It also has an overlay layer that contains the food name, pricing and a button to order now. This was quite challenging to get right. 
 
 I had to use the z-index to bring out the layer from the image, otherwise it just blends. Then figuring out it's first position which is outside of the layer, hence why I used a negative value for its asbolute position. Then of course added a transition along with a hover pseudo class to bring the element forward from it being hidden when hovered. 
+
+### Commit 7 (19/03/23)
+I completely forgot to update the readme when committing, but essentially during this commit it was simply adding markup for the footer section of the site. 
+
+### Commit 8 (19/03/23)
+Here I styled the footer section, I used flexbox to arranged the items within. The mixin here came in handy, I also added a flexdirection of column align the items vertically. 
+
+Styled the social media icons as well, and even added a hover effect to change the color when hovered. 
+
+Other than that, I added a copyright text section at the bottom. I somehow feel as if the footer might be a tad too large, but it's okay for now.
