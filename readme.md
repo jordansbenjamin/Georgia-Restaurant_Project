@@ -68,3 +68,6 @@ Here I styled the footer section, I used flexbox to arranged the items within. T
 Styled the social media icons as well, and even added a hover effect to change the color when hovered. 
 
 Other than that, I added a copyright text section at the bottom. I somehow feel as if the footer might be a tad too large, but it's okay for now.
+
+### Commit 9 (19/03/23)
+Added markup for navigation section, hoping to create a hamburger menu.
