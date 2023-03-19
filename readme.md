@@ -70,4 +70,15 @@ Styled the social media icons as well, and even added a hover effect to change t
 Other than that, I added a copyright text section at the bottom. I somehow feel as if the footer might be a tad too large, but it's okay for now.
 
 ### Commit 9 (19/03/23)
-Added markup for navigation section, hoping to create a hamburger menu.
+Added markup for navigation section, hoping to create a hamburger menu. I separated the navbar into two sections, left and right. The left will have images just for aesthetics and right will include actual navigation section.  
+
+The navbar itself will appear as an onclick event using checkboxes, this is my first time doing it, so will see how it works out.
+
+### Commit 10 (20/03/23)
+During this commit, I did the initial styling to the navigation section. I had to play around with the position of each element so that it would work when bringing up the navigation menu when clicked. 
+
+I had to separate the left and right sections using viewport width, they both have a fixed position, so they would stay there whenever someones access the menu. 
+
+The image section was given a position of absolute so that I can stack them diagonally, I also made it responsive using relative units. At the moment, it doesn't look so good on a large screen. I also gave the images a subtle box shadow to stand out a tiny bit. 
+
+Other than that, there are some more specific styling I did, especially to the right section with the navigation links. I used a transition and hover effect to change the color but also the letter spacing, I thought that this was pretty cool.
