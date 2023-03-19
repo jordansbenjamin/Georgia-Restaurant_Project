@@ -101,3 +101,8 @@ However, to create the X, I had to take out the middle line and set it's opacity
 More importantly, I had to use transition to give a delay so its animated smoothly.
 
 This was by far the most challenging feature of the site so far.
+
+### Commit 12 (20/03/23)
+For this commit, it's all exclusively setting media breakpoints for certain elements of the webpage from the heading to the logo, description and button for the images so far. Responsive design is quite interesting, I'm still trying to wrap my head around this one.
+
+There are other elements I have to add breakpoints to, but I thought the more obvious ones should be done first. I need a break.
