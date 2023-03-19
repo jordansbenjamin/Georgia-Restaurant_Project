@@ -74,7 +74,7 @@ Added markup for navigation section, hoping to create a hamburger menu. I separa
 
 The navbar itself will appear as an onclick event using checkboxes, this is my first time doing it, so will see how it works out.
 
-### Commit 10 (20/03/23)
+### Commit 10 (19/03/23)
 During this commit, I did the initial styling to the navigation section. I had to play around with the position of each element so that it would work when bringing up the navigation menu when clicked. 
 
 I had to separate the left and right sections using viewport width, they both have a fixed position, so they would stay there whenever someones access the menu. 
@@ -82,3 +82,22 @@ I had to separate the left and right sections using viewport width, they both ha
 The image section was given a position of absolute so that I can stack them diagonally, I also made it responsive using relative units. At the moment, it doesn't look so good on a large screen. I also gave the images a subtle box shadow to stand out a tiny bit. 
 
 Other than that, there are some more specific styling I did, especially to the right section with the navigation links. I used a transition and hover effect to change the color but also the letter spacing, I thought that this was pretty cool.
+
+### Commit 11 (20/03/23)
+Things are getting even more complex now as I'm implementing the hamburger menu and making it work. 
+
+At first, I had to create the shape of the menu which is a small square and positioned it on the top right corner of the page with a fixed position.
+
+I wanted to separate the menu into 3 different lines, and I used the placeholder variable called fullSpace along with a display flex, with a column direction and of course justify content space around. 
+
+The big part was using the pseudo class checked, this is part of the magic of onclick event using checkboxes, when checkbox is checked (in this case the hamburger menu) then the nav elements of right and left comes in. I see its checked position value at 0 to make this work. Otherwise its viewport width of right and left respectively are set to -50.
+
+I added a cubic bezier transition so that when the navigation menu is called, it comes smoothly from both sides. This was awesome to implement. 
+
+Probably the most challenging hurdle was figuring out how to change the hamburger menu to transition to an X. I used transform doing so, rotating its z axis accordingly for all 3 lines by 90deg.
+
+However, to create the X, I had to take out the middle line and set it's opacity to 0. So that when the other 2 lines rotate to now a 40 degree angle, the middle line dissapeared. I also had to set the transform origin to its right side. 
+
+More importantly, I had to use transition to give a delay so its animated smoothly.
+
+This was by far the most challenging feature of the site so far.
