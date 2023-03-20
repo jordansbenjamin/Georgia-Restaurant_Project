@@ -106,3 +106,6 @@ This was by far the most challenging feature of the site so far.
 For this commit, it's all exclusively setting media breakpoints for certain elements of the webpage from the heading to the logo, description and button for the images so far. Responsive design is quite interesting, I'm still trying to wrap my head around this one.
 
 There are other elements I have to add breakpoints to, but I thought the more obvious ones should be done first. I need a break.
+
+### Commit 13 (21/03/23)
+I added more breakpoints all the way from 1600px to 500px, there's still more componenents and elements that I need to keep adding breakpoints to. 

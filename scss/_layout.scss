@@ -103,6 +103,10 @@
         @include centering(15%);
         display: flex;
         align-items: center;
+
+        @media(max-width: 500px) {
+            @include centering(12%)
+        }
     }
 
     &-banner {
@@ -129,6 +133,10 @@
             left: -150px;
         }
 
+        @media (max-width: 800px) {
+            display: none;
+        }
+
         img {
             width: 100%;
             opacity: .7;
@@ -145,6 +153,10 @@
 
         @media(max-width: 1300px) {
             padding: 0 50px;
+        }
+
+        @media (max-width: 800px) {
+            width: 100%;
         }
 
         .stars {
@@ -182,6 +194,10 @@
 
             @media(max-width: 1000px) {
                 font-size: 14px;
+            }
+
+            @media(max-width: 500px) {
+                font-size: 12px;        
             }
         }
     }
@@ -236,5 +252,11 @@
         font-size: 18px;
         color: $color-secondary;
         @include textStyles(capitlize);
+
+        @media (max-width: 800px) {
+            width: 70%;
+            margin: auto;
+            text-align: center;
+        }
     }
 }
