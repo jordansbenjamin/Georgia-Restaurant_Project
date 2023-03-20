@@ -109,3 +109,8 @@ There are other elements I have to add breakpoints to, but I thought the more ob
 
 ### Commit 13 (21/03/23)
 I added more breakpoints all the way from 1600px to 500px, there's still more componenents and elements that I need to keep adding breakpoints to. 
+
+### Commit 14 (21/03/23)
+This should be my last commit for now, I've finished adding all the necessary breakpoints for a responsive design. Overall this was a challenging and fun project, I definitely think SASS is powerful and helps a lot with organising styles into different stylesheets. 
+
+I'll most likely re-visit this project to add other components and even pages to make it a fully functioning website. 
